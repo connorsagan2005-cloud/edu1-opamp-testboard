@@ -13,4 +13,4 @@ fp-lib-table  text eol=lf
 *.svg         text eol=lf
 
 # Treat SVG previews as binary for diffing (large machine-generated)
-verification/*.svg -diff
+**/verification/*.svg -diff

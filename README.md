@@ -1,107 +1,110 @@
-# opamp_block — v4, KiCad 8
+# EDU1 MQP — chip characterization & datasheet
 
-Fresh schematic capture from EDU1_Opamp_Block_Spec_v4.md. Both channels are complete. Open `opamp_block.kicad_pro`, then open the schematic.
+Top-level repository for the WPI Major Qualifying Project characterizing the **EDU1**
+mixed-signal IC (reported name **CRIMSON**). The chip was designed and taped out by a
+prior team; this project develops the test procedures, characterizes each analog block
+on custom PCBs, and produces the chip's first datasheet from measured results.
 
-The project contains exactly three schematic files:
+- **Team:** Connor, James, Matthew
+- **Advisor:** Prof. Suat Ay · **TA:** Ibrahim Bozyel
 
-- `opamp_block.kicad_sch`: the 12 support components, eight external hierarchical labels and two channel sheet symbols.
-- `opamp_ch1.kicad_sch`: channel 1, fixtures A–D, 53 components.
-- `opamp_ch2.kicad_sch`: channel 2, fixtures A–D, 53 components.
+## The chip
 
-No DUT symbol, shared sheet, board-wide VAA entry/current jumper, scan header or ground tie is included. No PCB file, footprints, placement or routing is supplied. Symbols are arranged by fixture; matching local labels provide the connections within each sheet. The channel-to-top connections use hierarchical sheet pins, never global labels.
+64 pins, ~12 independent analog/digital blocks (2× VDAC, 2× IDAC, 4-channel ADC,
+2× instrumentation amp, 2× op-amp, 2× comparator, 2× 555-style timer, 2× LDO,
+1× bandgap reference), all configured over a 5-pin serial scan chain
+(`sin` / `sclk` / `srstb` / `slatch` / `ssel`).
 
-## Integrating into the master project
+**This term's scope:** bandgap reference (BGR), LDO, comparator, op-amp.
+Everything else (VDAC / IDAC / ADC / instrumentation amps / timers) is next term, on
+separate PCBs.
 
-1. Copy this folder into the master project's folder, keeping the three schematic files together.
-2. In the master schematic, place a hierarchical sheet and set its sheet file to `opamp_block/opamp_block.kicad_sch` (adjust the folder path if necessary).
-3. Import the sheet pins from that sheet's hierarchical labels. Place exactly the eight pins below on the box border.
-4. Wire those eight pins to the master project's DUT and analog rails by hand. The master owns the DUT, chip VAA supply/current break, scan/control and AGND/DGND tie.
-5. Keep the existing child sheets intact. REF and AUX_5V are internal support connections, not additional external interface pins.
+## Architecture: master board + portable hierarchical blocks
 
-| Border pin | Internal net | Master connection |
-|---|---|---|
-| vaa | VAA | Chip analog supply, downstream of the board's current insertion point |
-| agnd | AGND | Board analog ground |
-| op1_inp | OP1_INP | DUT op1_inp |
-| op1_inn | OP1_INN | DUT op1_inn |
-| op1_out | OP1_OUT | DUT op1_out |
-| op2_inp | OP2_INP | DUT op2_inp |
-| op2_inn | OP2_INN | DUT op2_inn |
-| op2_out | OP2_OUT | DUT op2_out |
+This is a **monorepo** (not submodules — the master project and the blocks reference
+each other by relative KiCad sheet paths, which submodules make painful).
 
-KiCad implementation detail: a child file exposes **hierarchical labels**. The parent sheet symbol owns the matching border **sheet pins**, which are imported when placing the block. Therefore there is no extra wrapper sheet in this deliverable. KiCad's sheet-label direction types do not include `power_in`: `vaa` and `agnd` use `input` shape/direction, and the six signal ports use `passive`. Actual op-amp supply pins remain `power_in`. This implements the specified eight-port interface using KiCad's native hierarchy.
+- **One master board project owns the chip.** It carries the `DUT` symbol for the EDU1
+  padframe, the main VAA bench connector + current-insertion jumper, the scan/control
+  header, and the single AGND/DGND ground tie point. Owned by a groupmate; lives in
+  [`hardware/master-board/`](hardware/master-board/).
+- **Each analog block is its own self-contained, portable KiCad hierarchical block**
+  under [`hardware/blocks/`](hardware/blocks/), exposing a small set of named external
+  pins (e.g. `vaa`, `agnd`, plus the block's signal pins). No `DUT` symbol inside a
+  block, no duplicated board-wide infrastructure.
+- **Integration** = place the block as a hierarchical sheet in the master project and
+  wire its exposed pins to the `DUT` symbol by hand.
 
-The uppercase internal net labels and lowercase external names are both preserved. KiCad's exported net names add the normal hierarchy prefix, such as `/Channel 1/CH1_A_SUM`. When nested, the master may determine the final full net path/name.
+Why: portability (a block can be opened, edited and verified standalone) and a single
+shared DUT / power / scan infrastructure instead of a copy per block.
 
-The symbols are cached inside the schematics. Small bundled generic libraries and `sym-lib-table` also support editing this standalone project. Do not overwrite the master's symbol table; if it needs these library entries for subsequent symbol updates, merge them deliberately. The generic OPAMP symbol has 1=+, 2=-, 3=V+, 4=V-, 5=OUT. This is a placeholder pin mapping, not a selected physical part/package or a simulation model.
+The op-amp block ([`hardware/blocks/opamp/`](hardware/blocks/opamp/)) is complete and
+is the **reference example** — its README's integration section is the worked
+procedure every future block should follow.
 
-## Validation results
+## Net-naming convention
 
-Validated with **KiCad 8.0.8**: all three schematics load, export an XML netlist and render as SVG. The exported netlist was checked against the YAML net tables in v4, including all component values, tolerance fields, DNP flags and empty footprints.
+- **Chip pin names** stay exactly as the padframe / pinout spreadsheet and the shared
+  `EDU1` KiCad symbol define them. That is the source of truth — never renamed per
+  block.
+- **Board-wide global nets** (chip supply / ground) get UPPERCASE names defined once:
+  `vaa` → `VAA`, `agnd` → `AGND`, etc.
+- **`REF`** (the vaa/2 pseudo-ground) is reserved globally. Reuse it exactly; never
+  redefine it in a new block.
+- **Block-local nets** get a `<BLOCK><CHANNEL>_<FIXTURE>_` prefix, e.g. `CH1_A_INN`
+  for op-amp channel 1, fixture A. Future blocks follow the same pattern:
+  `COMP1_...`, `BGR_...`, `LDO_...`.
 
-| Self-check | Expected | Actual |
-|---|---:|---:|
-| External interface pins | 8 | 8 |
-| Shared/support components | 12 | 12 |
-| Channel 1 components | 53 | 53 |
-| Channel 2 components | 53 | 53 |
-| Total components | 118 | 118 |
-| Shared/support nets | 6 | 6 |
-| Channel 1 nets | 29 | 29 |
-| Channel 2 nets | 29 | 29 |
-| Total nets | 64 | 64 |
+## Directory map
 
-All **226 component pins** match their specified net membership; no missing, extra or duplicated pin memberships. **29 DNP components** are retained. Both shields on each channel's two coax connectors are connected as specified.
-
-A separate temporary master schematic connected eight test points to the block's eight border pins. Its KiCad export confirmed that every external pin reaches exactly the specified internal nodes. That temporary test fixture is not part of this project.
-
-The supplied v2 checker expects the old architecture (123 components and 73 nets) and cannot validate this block unchanged. `check_netlist_v4.py` checks the actual exported XML against the v4 Markdown source. As an independent cross-check, the supplied v2 topology was compared after removing only DUT, J_VAA, JP_IVAA, J_SCAN and R_GNDLINK and their now-empty nets: all remaining component types and internal net memberships agree.
-
-To check future edits, first export a fresh netlist, then run:
-
-```sh
-kicad-cli sch export netlist --format kicadxml -o opamp_block.net.xml opamp_block.kicad_sch
-python check_netlist_v4.py opamp_block.net.xml
+```
+docs/
+  chip/            EDU1 pinout spreadsheet, shared EDU1.kicad_sym + changelog, pin notes
+  standards/       INDEX.md only — links each block to its test-template standard/datasheet
+                   (no copyrighted PDFs in git)
+  test-procedures/ one subfolder per block: finalized test-circuit spec + deviations doc
+  meeting-notes/
+hardware/
+  master-board/    groupmate's project: DUT symbol, VAA connector + current jumper,
+                   scan header, AGND/DGND tie  (README stub for now)
+  blocks/
+    opamp/         complete — reference example
+    comparator/    not started (stub)
+    bandgap-ref/   not started (stub)
+    ldo/           not started (stub)
+  shared-libs/     symbol/footprint libraries shared across blocks + master
+firmware/          FPGA (Basys 3) scan-chain driver / test automation  (stub)
+test-scripts/      bench automation / data capture / per-block analysis  (stub)
+results/           measured characterization data → datasheet source  (stub)
 ```
 
-The Python checker requires PyYAML. `tools/generate.py` is the fresh-generation source; it accepts the path to an installed KiCad symbol directory. Running it overwrites this generated capture, so do not run it over subsequent manual edits.
+## How to add a new block
 
-### ERC and annotation findings — not suppressed
+Derived from how the op-amp block was built and integrated:
 
-The standalone ERC report has **2 errors and 58 warnings**:
+1. **Make a folder** under `hardware/blocks/<block>/` with its own `.kicad_pro` and
+   schematic set. No `DUT` symbol, no board-wide power/scan/ground infrastructure —
+   the master board owns all of that.
+2. **Define the external interface** as a small set of hierarchical labels on the top
+   sheet: `vaa`, `agnd`, plus the block's chip-facing signal pins named exactly as the
+   EDU1 symbol names them. Reuse `REF` as-is if the block needs the vaa/2 pseudo-ground;
+   never redefine it.
+3. **Keep block-local nets prefixed** `<BLOCK><CHANNEL>_<FIXTURE>_` (see convention
+   above).
+4. **Bundle the generic symbol libs** you use plus a local `sym-lib-table` with
+   `${KIPRJMOD}` URIs so the project opens standalone. The corrected `EDU1.kicad_sym`
+   comes from `hardware/shared-libs/`, not a per-block copy.
+5. **Verify standalone:** export an XML netlist with `kicad-cli`, check it against the
+   spec, run ERC, and record results under `verification/`. Document any ERC findings
+   you are deliberately not suppressing.
+6. **Integrate:** in the master project, place the block as a hierarchical sheet
+   pointing at `../blocks/<block>/<block>.kicad_sch`, import its sheet pins, and wire
+   them to the `DUT` symbol and analog rails by hand.
+7. **Write the block README** with an integration table (border pin → internal net →
+   master connection), following `hardware/blocks/opamp/README.md`.
 
-- 2 `power_pin_not_driven` errors: AUX_5V and AGND do not contain a power-output source symbol. The bench terminal is passive, and board power belongs outside this block. The capture intentionally includes no extra power flags or supply-source components.
-- 50 `similar_labels` warnings: the required lowercase external ports and uppercase internal labels differ only by case.
-- 8 `multiple_net_names` warnings: each external port connects to its specified uppercase internal net, e.g. `vaa` to `VAA`.
+## Branch convention
 
-There are no other reported ERC violation categories. The naming aliases connect as intended, as verified by the parent-sheet test. ERC is **not clean**, and no violations were hidden or excluded. Power-drive modeling must be reviewed in the complete master project.
-
-KiCad's netlist exporter also reports an annotation warning while preserving the spec's literal reference designators (many have nonnumeric endings, such as `U_REF` and `JP1A_INN`). These references were not automatically renumbered. Coordinate any later annotation with the master project and update the spec/checker mapping if references change.
-
-These tests establish schematic capture/connectivity correctness, not analog stability, measurement accuracy, physical package selection or new MIL-STD compliance verification.
-
-## Values deliberately unresolved
-
-| References | Literal value |
-|---|---|
-| R1_C2, R2_C2 | TBD-AD |
-| R1_CL, R2_CL, C1_CNULL, C2_CNULL | TBD |
-| R1_D1A, R1_D1B, R2_D1A, R2_D1B | TBD-AD |
-| C1_D1A, C1_D1B, C2_D1A, C2_D1B | TBD-AD |
-| C1_D2, C2_D2, R1_D2, R2_D2 | TBD |
-| U_REF, U1_NULL, U2_NULL | ZERO_DRIFT_RRIO_TBD |
-
-Components without a specified value have an empty schematic Value field; KiCad represents that as `~` in its XML export. No numerical values were invented.
-
-## Carry-forward build and integration notes
-
-- Fit exactly one fixture's three isolation shunts at a time per channel. A jumper symbol's fitted flag represents its hardware; it is not an instruction to install every fixture's shunts simultaneously. Silkscreen fixture letters beside them.
-- Fixture A's SUM/INN/NIP/INP high-impedance nodes require REF-driven guards, no vias inside the guard and no solder-mask opening, as stated in the spec. Notes appear on both channel sheets.
-- Fixture B defaults to R_BDIR fitted, C_BAC and R_BBIAS DNP. For AC coupling, remove R_BDIR and fit both alternatives. JP_BG open selects the follower; closed selects the approximately 101 noise gain configuration. For PD/Iq, leave the generator connected, set AC/pulse amplitude to zero and DC level to REF. This is the specified EDU1 adaptation, not literal Figure 4005-1 conformity.
-- Fixture C retains its servo path through the external chip. R_CVC is 0 ohm and fitted; C_CNULL is DNP. JP_C is closed for the retained tests. Do not add local feedback around the null amplifier.
-- Fixture D is entirely DNP, including its isolation jumpers.
-- U_REF senses feedback after the 10-ohm R_REFISO. C_REF2A remains DNP; stability and final amplifier selection remain unresolved.
-- J_AUX is the block's AUX_5V terminal. Its bench supply return connects to the board's AGND; no additional ground connector is added here.
-- The pin-48 discrepancy remains open: the source spreadsheet labels its block OPAMP1 but names the signal op2_inp. This project follows the specified signal names. Resolve this when wiring the master's DUT; no physical chip-pin assignment is made here.
-
-`verification/` contains the actual SVG sheet previews, connectivity/integration results and unsuppressed ERC JSON. `expected_v4.json` records the generator's parsed model for traceability; the checker independently reads the Markdown source instead.
+One feature branch per block/person, merged into the default branch via PR, so the
+master-board owner and each block owner aren't editing the same schematic files
+directly.
