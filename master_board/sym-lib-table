@@ -1,0 +1,3 @@
+(sym_lib_table
+(lib (name "EDU1") (type "KiCad") (uri "${KIPRJMOD}/EDU1_v2.kicad_sym") (options "") (descr "EDU1 / CRIMSON chip symbol, corrected v2, 64 pins"))
+)
