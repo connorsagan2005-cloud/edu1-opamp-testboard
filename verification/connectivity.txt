@@ -1,0 +1,8 @@
+PASS: actual KiCad XML export matches v4 pin membership on every net.
+Components: 118 = 12 support + 53 channel 1 + 53 channel 2
+Nets: 64 = 6 support + 29 channel 1 + 29 channel 2
+External hierarchical labels: 8; child sheets: 2; global labels: 0
+Component pins checked: 226; duplicate/missing/extra pin memberships: 0
+DNP components: 29; all values, tolerance fields and empty footprints verified.
+TBD/TBD-AD: R1_C2=TBD-AD, R1_CL=TBD, C1_CNULL=TBD, R1_D1A=TBD-AD, R1_D1B=TBD-AD, C1_D1A=TBD-AD, C1_D1B=TBD-AD, C1_D2=TBD, R1_D2=TBD, R2_C2=TBD-AD, R2_CL=TBD, C2_CNULL=TBD, R2_D1A=TBD-AD, R2_D1B=TBD-AD, C2_D1A=TBD-AD, C2_D1B=TBD-AD, C2_D2=TBD, R2_D2=TBD
+Op-amp values: U_REF, U1_NULL, U2_NULL = ZERO_DRIFT_RRIO_TBD

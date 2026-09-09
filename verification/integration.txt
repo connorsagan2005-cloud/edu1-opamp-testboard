@@ -1,0 +1,10 @@
+KiCad 8.0.8 temporary master-sheet test (test fixture excluded from delivery):
+vaa -> VAA: PASS (3 internal component pins)
+agnd -> AGND: PASS (15 internal component pins)
+op1_inp -> OP1_INP: PASS (4 internal component pins)
+op1_inn -> OP1_INN: PASS (4 internal component pins)
+op1_out -> OP1_OUT: PASS (4 internal component pins)
+op2_inp -> OP2_INP: PASS (4 internal component pins)
+op2_inn -> OP2_INN: PASS (4 internal component pins)
+op2_out -> OP2_OUT: PASS (4 internal component pins)
+8/8 external pins reach exactly their specified internal nodes.

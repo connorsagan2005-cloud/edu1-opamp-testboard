@@ -1,0 +1,1391 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T13:20:19-0400",
+    "kicad_version": "8.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9abd094e-d8b6-42a4-83d5-354b9381b9e7",
+            "violations": [
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 3.683,
+                                "y": 2.6162
+                            },
+                            "uuid": "e252f3a7-f825-45b4-be16-b331aeeb5c4b"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 3.683,
+                                "y": 2.4892
+                            },
+                            "uuid": "d56547e7-7de7-4422-a4b9-943b72843473"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 3.683,
+                                "y": 2.7432
+                            },
+                            "uuid": "4233751c-a417-4340-b824-c6e68a754120"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Both VAA and vaa are attached to the same items; VAA will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'VAA'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.5207
+                            },
+                            "uuid": "b0959005-5835-4107-b9cc-3f8636400d84"
+                        },
+                        {
+                            "description": "Hierarchical Label 'vaa'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 1.9812
+                            },
+                            "uuid": "10941f1a-cd49-4be2-b2b1-eb1ecbacf663"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'vaa'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 1.9812
+                            },
+                            "uuid": "10941f1a-cd49-4be2-b2b1-eb1ecbacf663"
+                        },
+                        {
+                            "description": "Label 'VAA'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.5207
+                            },
+                            "uuid": "b0959005-5835-4107-b9cc-3f8636400d84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.3622
+                            },
+                            "uuid": "d3258ee7-c90d-4511-b0e4-917ae2c0fde3"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.2352
+                            },
+                            "uuid": "6bd6de58-0e34-4093-b7d1-414c80213fd9"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Both AGND and agnd are attached to the same items; AGND will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'AGND'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.6985
+                            },
+                            "uuid": "1e0b1635-24d7-43a0-abf1-25f864cc87c0"
+                        },
+                        {
+                            "description": "Hierarchical Label 'agnd'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.1082
+                            },
+                            "uuid": "24783454-b580-417a-a450-373db2f8f90e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both OP1_INP and op1_inp are attached to the same items; OP1_INP will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.2352
+                            },
+                            "uuid": "6bd6de58-0e34-4093-b7d1-414c80213fd9"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'agnd'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.1082
+                            },
+                            "uuid": "24783454-b580-417a-a450-373db2f8f90e"
+                        },
+                        {
+                            "description": "Label 'AGND'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.6985
+                            },
+                            "uuid": "1e0b1635-24d7-43a0-abf1-25f864cc87c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 2.7432
+                            },
+                            "uuid": "22168907-3aab-4eb9-afaa-1f0ec8e43c7d"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 2.6162
+                            },
+                            "uuid": "fc838dc3-b382-47cb-a379-d0eed9aff6f3"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 2.4892
+                            },
+                            "uuid": "2e0bd052-435f-43e9-899d-46ddd6a79dda"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.4892
+                            },
+                            "uuid": "78195479-427f-4a3b-9cd5-da11140b7a50"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.6162
+                            },
+                            "uuid": "88ddc360-93a0-4764-a0b8-5e4e89b12276"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Both OP2_INN and op2_inn are attached to the same items; OP2_INN will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.7432
+                            },
+                            "uuid": "0963fb18-e056-4851-8e09-6586323ce6f7"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.7432
+                            },
+                            "uuid": "0963fb18-e056-4851-8e09-6586323ce6f7"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Both OP2_OUT and op2_out are attached to the same items; OP2_OUT will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.8702
+                            },
+                            "uuid": "27d9807d-d1d2-4266-91a1-601d23e8ad1f"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.8702
+                            },
+                            "uuid": "27d9807d-d1d2-4266-91a1-601d23e8ad1f"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Both OP2_INP and op2_inp are attached to the same items; OP2_INP will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.6162
+                            },
+                            "uuid": "88ddc360-93a0-4764-a0b8-5e4e89b12276"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both OP1_INN and op1_inn are attached to the same items; OP1_INN will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.3622
+                            },
+                            "uuid": "d3258ee7-c90d-4511-b0e4-917ae2c0fde3"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both OP1_OUT and op1_out are attached to the same items; OP1_OUT will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.4892
+                            },
+                            "uuid": "78195479-427f-4a3b-9cd5-da11140b7a50"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/Channel 1/",
+            "uuid_path": "/9abd094e-d8b6-42a4-83d5-354b9381b9e7/30e90c19-d73d-4e21-8530-ab84bf214d93",
+            "violations": [
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 4.1148,
+                                "y": 2.9718
+                            },
+                            "uuid": "297d0f67-968d-4f95-ad3d-94441f261c9d"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 2.9718
+                            },
+                            "uuid": "8faf8ba1-de84-4336-a3a6-2b57bc20de70"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'OP1_INN'",
+                            "pos": {
+                                "x": 4.0132,
+                                "y": 0.2794
+                            },
+                            "uuid": "0dd8e16c-9a2f-45e3-96de-f09433b2df0c"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 1.524
+                            },
+                            "uuid": "50b4fcae-3948-4a7b-812c-ad3159e13e5a"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'OP1_INP'",
+                            "pos": {
+                                "x": 3.0988,
+                                "y": 0.2794
+                            },
+                            "uuid": "a72c040a-433d-483a-8bd3-de9e4390ee55"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.2794
+                            },
+                            "uuid": "32879e20-ea87-4879-8419-e48dd18ebaee"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 4.1148,
+                                "y": 1.524
+                            },
+                            "uuid": "28822153-7004-4278-a0c9-3c94d30b2ba7"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.2794
+                            },
+                            "uuid": "78676294-5241-47fc-a099-cdb601cb0fe0"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 5.08,
+                                "y": 0.2794
+                            },
+                            "uuid": "80a0bc7c-681c-4863-8e3d-e866504cb3a9"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 4.1656,
+                                "y": 0.2794
+                            },
+                            "uuid": "14c8cb1d-7335-4042-8a9d-85826bbe325c"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 5.0292,
+                                "y": 1.2446
+                            },
+                            "uuid": "e5f8dc9f-c547-403c-8d74-9eb4dd9926df"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 5.0292,
+                                "y": 2.9718
+                            },
+                            "uuid": "3203d476-1868-4f80-8285-c62defedcf3e"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.524
+                            },
+                            "uuid": "64fa1c66-b22a-40e0-a50c-fc62103a3998"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 3.2512
+                            },
+                            "uuid": "4c0dce92-9844-4a87-9293-e479d1e82c09"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 2.9718
+                            },
+                            "uuid": "b57431ec-af3c-4519-85cc-990100311558"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_OUT'",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 1.524
+                            },
+                            "uuid": "8d7424e0-f806-43f4-a9c7-09f2d65daea1"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.4892
+                            },
+                            "uuid": "61c09bba-965e-410b-b3d7-0d9c0ea0508e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INN'",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 1.2446
+                            },
+                            "uuid": "d478c13f-0b25-4743-a7d5-686096dc219b"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.3622
+                            },
+                            "uuid": "053023c7-d360-45d5-914e-b792ff9d28ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1_NULL Pin 3 [V+, Power input, Line]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 2.8702
+                            },
+                            "uuid": "beb71552-3c1c-404f-b87c-003e57f28eaa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1_NULL Pin 4 [V-, Power input, Line]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 3.0226
+                            },
+                            "uuid": "bccb51dc-0c8e-4baf-badf-65c0dde60a54"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP1_INP'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 3.2512
+                            },
+                            "uuid": "2c1a29b0-9dda-4663-a29f-8b44e8825811"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op1_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.2352
+                            },
+                            "uuid": "a43e84d5-eeb7-461a-ae0a-541e3638f2cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                }
+            ]
+        },
+        {
+            "path": "/Channel 2/",
+            "uuid_path": "/9abd094e-d8b6-42a4-83d5-354b9381b9e7/26974426-3c50-43f8-8932-1b1978ee6719",
+            "violations": [
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 4.1148,
+                                "y": 2.9718
+                            },
+                            "uuid": "4026c699-0a30-4de1-94a6-da5fc906271c"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 2.9718
+                            },
+                            "uuid": "9ef9d166-f33c-4c60-adcb-b26308de1a56"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'OP2_INN'",
+                            "pos": {
+                                "x": 4.0132,
+                                "y": 0.2794
+                            },
+                            "uuid": "6c1cba24-5df3-4656-8509-0163f2ac63fc"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 1.524
+                            },
+                            "uuid": "c8df3a6b-36e2-414f-a96c-1e9fbd027165"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 4.1148,
+                                "y": 1.524
+                            },
+                            "uuid": "5121986d-affe-4b83-a6e0-3f6c6ac2da35"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'OP2_INP'",
+                            "pos": {
+                                "x": 3.0988,
+                                "y": 0.2794
+                            },
+                            "uuid": "487d8fde-0500-4686-b590-f36322f134b7"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.2794
+                            },
+                            "uuid": "3e0b98a7-2c5e-421c-be5b-47aea8a9bbd0"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 4.1656,
+                                "y": 0.2794
+                            },
+                            "uuid": "a4927954-bbca-4d8a-94d6-fde3605ea174"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.2794
+                            },
+                            "uuid": "76fb65a5-2516-4f4b-ad66-3ac56246e3d5"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 5.08,
+                                "y": 0.2794
+                            },
+                            "uuid": "4931042c-3808-43a4-99cd-0bca9c0cf115"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 5.0292,
+                                "y": 1.2446
+                            },
+                            "uuid": "062dd06c-1a40-4141-a53c-6817d0304b1f"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 5.0292,
+                                "y": 2.9718
+                            },
+                            "uuid": "3142f84b-ffaa-426d-bd65-4816ac0b2357"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.524
+                            },
+                            "uuid": "5c9ee3e9-f407-409f-b914-0aebe1c8948e"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 3.2512
+                            },
+                            "uuid": "177ed338-1891-4301-8e41-d63a17715912"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 2.9718
+                            },
+                            "uuid": "e4ca64f3-266d-4419-999f-db54624430cc"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INN'",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 1.2446
+                            },
+                            "uuid": "70cf19e0-8238-4852-a032-340dff16d1b6"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inn'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.7432
+                            },
+                            "uuid": "9e718625-8e6c-4c1b-95ae-202c607b4823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_OUT'",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 1.524
+                            },
+                            "uuid": "32af989b-c675-4f43-81d4-328d2a1fc65c"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_out'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.8702
+                            },
+                            "uuid": "0a3a8f15-6778-4bfb-a988-4caf75dac910"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'OP2_INP'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 3.2512
+                            },
+                            "uuid": "cc45a932-8860-472f-a3ec-0ec90802175a"
+                        },
+                        {
+                            "description": "Hierarchical Label 'op2_inp'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 2.6162
+                            },
+                            "uuid": "e589d539-3dce-4971-a465-bd64b87fc822"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
+                }
+            ]
+        }
+    ],
+    "source": "opamp_block.kicad_sch"
+}

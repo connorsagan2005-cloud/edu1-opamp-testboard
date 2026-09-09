@@ -1,0 +1,2779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/be652cf4d594/opamp_block/opamp_block.kicad_sch</source>
+    <date>2026-09-09T13:18:11-0400</date>
+    <tool>Eeschema 8.0.8+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Op-amp block | REF, AUX supply and 8-pin interface</title>
+        <company>WPI - EDU1 Op-amp characterization</company>
+        <rev>4</rev>
+        <date/>
+        <source>opamp_block.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/">
+      <title_block>
+        <title>Channel 1 | fixtures A, B, C and D</title>
+        <company>WPI - EDU1 Op-amp characterization</company>
+        <rev>4</rev>
+        <date/>
+        <source>opamp_ch1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/">
+      <title_block>
+        <title>Channel 2 | fixtures A, B, C and D</title>
+        <company>WPI - EDU1 Op-amp characterization</company>
+        <rev>4</rev>
+        <date/>
+        <source>opamp_ch2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C_AUX1">
+      <value>100n</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e90fd8f5-ced3-4835-a6c8-928cefe8e9a2</tstamps>
+    </comp>
+    <comp ref="C_AUX2">
+      <value>10u</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbf2b445-9ef2-4d52-a8d4-78e9eac1c7d5</tstamps>
+    </comp>
+    <comp ref="C_REF1">
+      <value>10u</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e20d7096-d643-44b9-bf01-ceadb0d80cce</tstamps>
+    </comp>
+    <comp ref="C_REF2A">
+      <value>10u</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8e1808a-d1fa-4ced-b009-6b0cfa5d8bef</tstamps>
+    </comp>
+    <comp ref="C_REF2B">
+      <value>100n</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10c892fd-c7f8-4849-8fc5-37db1b162186</tstamps>
+    </comp>
+    <comp ref="C_VAA1">
+      <value>100n</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af0b5c96-e515-4011-8e0f-e9f59d08c96c</tstamps>
+    </comp>
+    <comp ref="C_VAA2">
+      <value>10u</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9597e17-003c-43d2-94fc-54ec1a1fb10c</tstamps>
+    </comp>
+    <comp ref="J_AUX">
+      <value>AUX_5V_BENCH</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8a53c85-1954-428c-8621-62752839f33b</tstamps>
+    </comp>
+    <comp ref="R_REF1">
+      <value>10k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>173281bf-1ed4-4698-861e-2484649c5692</tstamps>
+    </comp>
+    <comp ref="R_REF2">
+      <value>10k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75d809a6-3407-475e-9d2a-0eb0586fc739</tstamps>
+    </comp>
+    <comp ref="R_REFISO">
+      <value>10</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0889a08-1390-4f68-aa2c-5477afebf2f2</tstamps>
+    </comp>
+    <comp ref="U_REF">
+      <value>ZERO_DRIFT_RRIO_TBD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="OPAMP" description="Operational amplifier, single"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="opamp_block.kicad_sch"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e548a02c-f753-467b-ba9e-274c2854fb16</tstamps>
+    </comp>
+    <comp ref="C1_BAC">
+      <value>1u</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>619bc443-aaf7-4931-b8c3-2ca7ce02103c</tstamps>
+    </comp>
+    <comp ref="C1_CNULL">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>4aac4450-3161-43a2-92b6-fcae71e3337d</tstamps>
+    </comp>
+    <comp ref="C1_D1A">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">C1 inverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="C1 inverting"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>5eee0a30-ba63-421c-a022-8ec31a47fa80</tstamps>
+    </comp>
+    <comp ref="C1_D1B">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">C1 noninverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="C1 noninverting"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>dcced3c5-f902-4553-89fe-768ff6fac77e</tstamps>
+    </comp>
+    <comp ref="C1_D2">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">C2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="C2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>c15d161f-8f9f-418c-9838-eb7347221ed0</tstamps>
+    </comp>
+    <comp ref="J1_BSIG">
+      <value>GENERATOR</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">V1 / eI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="V1 / eI"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>7c04d9f1-033a-4e87-ad3c-c916b17d1ee3</tstamps>
+    </comp>
+    <comp ref="J1_BV1">
+      <value>V1_BIAS</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>878efd80-fc68-4c34-b6b8-5f878e867a09</tstamps>
+    </comp>
+    <comp ref="J1_DSIG">
+      <value>GENERATOR</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">V2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="V2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>30bd0073-82c1-403d-ae46-06d8af2404f4</tstamps>
+    </comp>
+    <comp ref="J1_V1C">
+      <value>V1</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">V1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="V1"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>cf16af3b-47d7-4b9b-9b9f-9fa9f28d846d</tstamps>
+    </comp>
+    <comp ref="J1_VC">
+      <value>VC</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">VC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="VC"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>dba3bd82-a5cf-40c7-adad-ddfc440af5d5</tstamps>
+    </comp>
+    <comp ref="JP1A_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>5d2c491c-873f-41f9-874e-c02ffb9a6404</tstamps>
+    </comp>
+    <comp ref="JP1A_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>96a1f921-a475-46fd-ab93-cd60effaa3a0</tstamps>
+    </comp>
+    <comp ref="JP1A_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>390e4df3-e7f7-4504-8e6f-b5c3f206aae7</tstamps>
+    </comp>
+    <comp ref="JP1B_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>c0c235d2-eb07-478a-be50-5b65d9526951</tstamps>
+    </comp>
+    <comp ref="JP1B_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>15a69c0d-8909-4b33-98fa-63bbc93bad74</tstamps>
+    </comp>
+    <comp ref="JP1B_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>147283ec-6493-4ac8-9990-44ca8a22b662</tstamps>
+    </comp>
+    <comp ref="JP1C_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>a48553e7-a9cc-4af1-ae38-a91f7a0ea6ba</tstamps>
+    </comp>
+    <comp ref="JP1C_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>0f1ed034-179d-4791-8628-3f2842882710</tstamps>
+    </comp>
+    <comp ref="JP1C_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>5070b7f0-5cfc-4863-86cc-b6f8f247cf1a</tstamps>
+    </comp>
+    <comp ref="JP1D_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>de2f5d01-80e2-4b7e-b084-99814bc8aee5</tstamps>
+    </comp>
+    <comp ref="JP1D_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>e5b53ad8-f744-43d9-9a8e-284f9efebff3</tstamps>
+    </comp>
+    <comp ref="JP1D_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>60c039c9-2aff-48a8-974b-24de0f749248</tstamps>
+    </comp>
+    <comp ref="JP1_BG">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>b3aa370b-afd2-4e9d-b1f1-80c076a42056</tstamps>
+    </comp>
+    <comp ref="JP1_C">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">S4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="S4"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>ba298a91-a548-490a-ab80-41a117638b0f</tstamps>
+    </comp>
+    <comp ref="R1_A1">
+      <value>10k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R1"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>68eccb34-af82-49e8-adf7-14a6b7175514</tstamps>
+    </comp>
+    <comp ref="R1_A2">
+      <value>1M</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>7b3af042-0333-4547-a7bc-cfca401405fa</tstamps>
+    </comp>
+    <comp ref="R1_A3A">
+      <value>10M</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">R3 inverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="R3 inverting"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>0ed0a30b-22b7-4b2e-9499-e7d5c51380e6</tstamps>
+    </comp>
+    <comp ref="R1_A3B">
+      <value>10M</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">R3 noninverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="R3 noninverting"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>86c2e0fb-5efa-451b-a666-706875daef3d</tstamps>
+    </comp>
+    <comp ref="R1_A4">
+      <value>9k90</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R4 = R1||R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R4 = R1||R2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>ade2da54-3247-4be0-ab7d-fa05a84109a5</tstamps>
+    </comp>
+    <comp ref="R1_AVQI">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">VQI source link</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="VQI source link"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>e465223c-14c8-40d0-a917-fd11be88f4ce</tstamps>
+    </comp>
+    <comp ref="R1_BBIAS">
+      <value>10k</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>702858d3-7141-48f8-9a05-9d3cdd0905f0</tstamps>
+    </comp>
+    <comp ref="R1_BDIR">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>8a871459-9554-4877-b3f4-7fa5888afc97</tstamps>
+    </comp>
+    <comp ref="R1_BF">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">4002-1 R1 / 4004-4 R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="4002-1 R1 / 4004-4 R2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>6316e5d2-6c23-4dd9-acad-70f00001b0ce</tstamps>
+    </comp>
+    <comp ref="R1_BG">
+      <value>10</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">4004-4 R1 gain leg</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="4004-4 R1 gain leg"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>55182291-7d0d-44a0-aabd-d9a30f7fbc12</tstamps>
+    </comp>
+    <comp ref="R1_BIN">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">4002-1 R2 / 4004-4 R3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="4002-1 R2 / 4004-4 R3"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>0d518bdf-ca33-47bd-9774-03fbf95b4085</tstamps>
+    </comp>
+    <comp ref="R1_BV1">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">4004-4 V1 link</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="4004-4 V1 link"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>b307abe2-dea8-4da9-ad4e-e6f470ac8e99</tstamps>
+    </comp>
+    <comp ref="R1_C1A">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R1 inverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R1 inverting"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>a960e7b1-c1be-459a-b77c-520c5bfae5e8</tstamps>
+    </comp>
+    <comp ref="R1_C1B">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R1 noninverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R1 noninverting"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>9c238dc7-f40c-461e-9d05-d05d04d5b859</tstamps>
+    </comp>
+    <comp ref="R1_C2">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="R2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>96b70598-0746-4ead-8f9d-2ebd8c4409aa</tstamps>
+    </comp>
+    <comp ref="R1_CL">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">RL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="RL"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>c77e3490-ae0b-46fc-8b7c-b35a4c5c6abb</tstamps>
+    </comp>
+    <comp ref="R1_CVC">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>df453f35-4c53-41ac-9c95-72592ada772e</tstamps>
+    </comp>
+    <comp ref="R1_D1A">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">R1 feedback</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="R1 feedback"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>b6d9dc99-88c4-42f4-9cf3-a3393a55f44f</tstamps>
+    </comp>
+    <comp ref="R1_D1B">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">R1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="R1"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>2601e52d-a6f6-48fd-9964-54f909e918fc</tstamps>
+    </comp>
+    <comp ref="R1_D2">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">R2 ~= nominal ZO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="R2 ~= nominal ZO"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>13d339eb-4707-463e-985d-0d00b57ae8ec</tstamps>
+    </comp>
+    <comp ref="SW1_A1">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">S1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="S1"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>23e402c7-6850-4e17-aa3f-cc5e528a4c43</tstamps>
+    </comp>
+    <comp ref="SW1_A2">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">S2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="S2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>ffdb40eb-fdaf-422b-bf43-0e46fdec4f20</tstamps>
+    </comp>
+    <comp ref="TP1_EA0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">E0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="E0"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>d8892bb5-7a70-437e-ad86-55c26f7ffe5e</tstamps>
+    </comp>
+    <comp ref="TP1_EB0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">E0 / e0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="E0 / e0"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>50529641-51e0-423b-849c-d34e07489c5f</tstamps>
+    </comp>
+    <comp ref="TP1_EC0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">E0 loop output</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="E0 loop output"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>47ad1374-1ff3-46aa-9423-91b81617761e</tstamps>
+    </comp>
+    <comp ref="TP1_V0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">V0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="V0"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>80acc48c-a2df-4a38-8c89-b51e5acc94af</tstamps>
+    </comp>
+    <comp ref="TP1_V2">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">V2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="V2"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>4071ce87-340f-4956-9fc4-ac53032dd0eb</tstamps>
+    </comp>
+    <comp ref="TP1_VQI">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">VQI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="VQI"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>6dcf772d-a186-4f1e-a4a4-1912a32a9576</tstamps>
+    </comp>
+    <comp ref="U1_NULL">
+      <value>ZERO_DRIFT_RRIO_TBD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">NULL AMP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="OPAMP" description="Operational amplifier, single"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="NULL AMP"/>
+      <property name="Sheetname" value="Channel 1"/>
+      <property name="Sheetfile" value="opamp_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/Channel 1/" tstamps="/30e90c19-d73d-4e21-8530-ab84bf214d93/"/>
+      <tstamps>e260981a-4f96-4d8e-9bf9-8e7bde303bad</tstamps>
+    </comp>
+    <comp ref="C2_BAC">
+      <value>1u</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>b2bbbe18-1ed9-407e-bad0-2988f2c8b646</tstamps>
+    </comp>
+    <comp ref="C2_CNULL">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>a12c578a-e9df-4076-8983-28bf67587936</tstamps>
+    </comp>
+    <comp ref="C2_D1A">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">C1 inverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="C1 inverting"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>940e20ce-fdbb-4e55-b8eb-0babd82955bf</tstamps>
+    </comp>
+    <comp ref="C2_D1B">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">C1 noninverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="C1 noninverting"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>46600a8b-f68f-4edc-8f34-88745cfb5913</tstamps>
+    </comp>
+    <comp ref="C2_D2">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">C2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="C2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>84b0ac11-ac09-4bfe-a430-551a44f9d5f0</tstamps>
+    </comp>
+    <comp ref="J2_BSIG">
+      <value>GENERATOR</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">V1 / eI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="V1 / eI"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>8b43b70e-ec82-44c1-9a7c-37705883a7ca</tstamps>
+    </comp>
+    <comp ref="J2_BV1">
+      <value>V1_BIAS</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>68b3159c-e221-4f0d-b53f-ce823091641d</tstamps>
+    </comp>
+    <comp ref="J2_DSIG">
+      <value>GENERATOR</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">V2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="V2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>72a32572-0fbd-4df1-b351-ea07fd67da2a</tstamps>
+    </comp>
+    <comp ref="J2_V1C">
+      <value>V1</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">V1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="V1"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>8037c43e-ba77-488f-b571-3b6238f4e9d4</tstamps>
+    </comp>
+    <comp ref="J2_VC">
+      <value>VC</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">VC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="VC"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>ac17e1dc-1457-47c7-8741-2348b3d3bbad</tstamps>
+    </comp>
+    <comp ref="JP2A_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>90d8d9f4-a2da-4a69-8c8e-8689c40a568d</tstamps>
+    </comp>
+    <comp ref="JP2A_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>7990218e-72a0-4248-b7a3-adfb5ac0e445</tstamps>
+    </comp>
+    <comp ref="JP2A_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>286b379c-b94a-4840-bf01-4d9051c44196</tstamps>
+    </comp>
+    <comp ref="JP2B_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>08c16c75-c7d6-4958-a565-7fa97b8c0860</tstamps>
+    </comp>
+    <comp ref="JP2B_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>a274a27c-c691-4278-83b0-4c4fd93f2159</tstamps>
+    </comp>
+    <comp ref="JP2B_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>31732965-8114-49cf-88ff-2eec9a6fde6b</tstamps>
+    </comp>
+    <comp ref="JP2C_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>172c29ac-b834-40b0-9365-aa4a4759a638</tstamps>
+    </comp>
+    <comp ref="JP2C_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>c951260d-1c41-4f24-acbd-f1463b52f1ae</tstamps>
+    </comp>
+    <comp ref="JP2C_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>c193156a-fab2-400c-8aa5-6af4791f1cf2</tstamps>
+    </comp>
+    <comp ref="JP2D_INN">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>771dc2d6-c121-42ab-874f-ce88cfd033c8</tstamps>
+    </comp>
+    <comp ref="JP2D_INP">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>cb4b5eee-a62d-438b-840e-69c86efa4790</tstamps>
+    </comp>
+    <comp ref="JP2D_OUT">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>3a5bde4b-8ab9-4494-a600-846369edf5fe</tstamps>
+    </comp>
+    <comp ref="JP2_BG">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>0b2f16a0-317a-4a08-952e-c5bd2aa54432</tstamps>
+    </comp>
+    <comp ref="JP2_C">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">S4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="S4"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>cbbbc454-bc4f-4b44-a5be-287774a9e946</tstamps>
+    </comp>
+    <comp ref="R2_A1">
+      <value>10k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R1"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>1236883b-f4ad-4280-85e4-7027bd938104</tstamps>
+    </comp>
+    <comp ref="R2_A2">
+      <value>1M</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>451bc9e6-527b-41e9-9ae9-9c6cb6030548</tstamps>
+    </comp>
+    <comp ref="R2_A3A">
+      <value>10M</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">R3 inverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="R3 inverting"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>8c6ac11b-7aff-4696-9007-361799cc3bcc</tstamps>
+    </comp>
+    <comp ref="R2_A3B">
+      <value>10M</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">R3 noninverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="R3 noninverting"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>71d20005-f052-4b2b-a6b6-08b1d36d2208</tstamps>
+    </comp>
+    <comp ref="R2_A4">
+      <value>9k90</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R4 = R1||R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R4 = R1||R2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>c136e088-4139-4158-9b3d-564244d9e24d</tstamps>
+    </comp>
+    <comp ref="R2_AVQI">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">VQI source link</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="VQI source link"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>0c74e3b3-efad-43e2-ac2e-149b9bb18d75</tstamps>
+    </comp>
+    <comp ref="R2_BBIAS">
+      <value>10k</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>86d2dc7f-5832-48b0-a733-b407a9f635cc</tstamps>
+    </comp>
+    <comp ref="R2_BDIR">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>1af788ee-0f58-476a-992c-aa3a6623c153</tstamps>
+    </comp>
+    <comp ref="R2_BF">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">4002-1 R1 / 4004-4 R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="4002-1 R1 / 4004-4 R2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>3c0319ea-81b6-436a-8abe-4ae1a5d728d5</tstamps>
+    </comp>
+    <comp ref="R2_BG">
+      <value>10</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">4004-4 R1 gain leg</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="4004-4 R1 gain leg"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>165a95e0-9ff1-49a3-8514-3dd40e9a97dd</tstamps>
+    </comp>
+    <comp ref="R2_BIN">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">4002-1 R2 / 4004-4 R3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="4002-1 R2 / 4004-4 R3"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>9a07ee95-40d6-45af-a96d-948c6be9f294</tstamps>
+    </comp>
+    <comp ref="R2_BV1">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">4004-4 V1 link</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="4004-4 V1 link"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>c0048052-fb7a-4d8c-bab2-88b1c22a243f</tstamps>
+    </comp>
+    <comp ref="R2_C1A">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R1 inverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R1 inverting"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>145a53b8-8191-406f-9095-670ed1e39bea</tstamps>
+    </comp>
+    <comp ref="R2_C1B">
+      <value>1k</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="MIL">R1 noninverting</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Tolerance" value="0.1%"/>
+      <property name="MIL" value="R1 noninverting"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>130c92a1-bb57-4adc-9227-344db42bf2b8</tstamps>
+    </comp>
+    <comp ref="R2_C2">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">R2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="R2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>ea8c3790-3e43-4d68-85bc-3c9d8387c435</tstamps>
+    </comp>
+    <comp ref="R2_CL">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">RL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="RL"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>9ca9bc4e-62f0-41c6-8aef-917266fdf05d</tstamps>
+    </comp>
+    <comp ref="R2_CVC">
+      <value>0</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="true"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>e657a1f7-fca5-4d09-8cf9-30ee045068b3</tstamps>
+    </comp>
+    <comp ref="R2_D1A">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">R1 feedback</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="R1 feedback"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>820a49fa-a89d-4b3a-9c75-125941a8c7f5</tstamps>
+    </comp>
+    <comp ref="R2_D1B">
+      <value>TBD-AD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">R1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="R1"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>e8635e61-2ea9-4dae-9531-2ec138056117</tstamps>
+    </comp>
+    <comp ref="R2_D2">
+      <value>TBD</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">R2 ~= nominal ZO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="R2 ~= nominal ZO"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>8ab78376-e208-4236-84f7-77c11486b979</tstamps>
+    </comp>
+    <comp ref="SW2_A1">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">S1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="S1"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>740e674e-09a3-4dc4-a283-a22a7b851a73</tstamps>
+    </comp>
+    <comp ref="SW2_A2">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">S2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="S2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>181c79b2-dba3-441c-a4dd-c0390cb0110e</tstamps>
+    </comp>
+    <comp ref="TP2_EA0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">E0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="E0"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>67e9d024-fdff-4791-aff8-a00495db93ec</tstamps>
+    </comp>
+    <comp ref="TP2_EB0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">E0 / e0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="E0 / e0"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>e65f3dce-20a6-4001-bcb4-58db0010d9dd</tstamps>
+    </comp>
+    <comp ref="TP2_EC0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">E0 loop output</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="E0 loop output"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>365f1786-0dfa-4cce-af6f-3d0cca819ee9</tstamps>
+    </comp>
+    <comp ref="TP2_V0">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">false</field>
+        <field name="MIL">V0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="false"/>
+      <property name="MIL" value="V0"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>d8a6bea1-8594-47f2-8d5b-d3f75c7d1055</tstamps>
+    </comp>
+    <comp ref="TP2_V2">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">V2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="V2"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>ad63ccfc-ea6f-4de0-994f-d4643d0df395</tstamps>
+    </comp>
+    <comp ref="TP2_VQI">
+      <value>~</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">VQI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="VQI"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>8d5307b1-6e77-4def-b72a-2360aa62ba1a</tstamps>
+    </comp>
+    <comp ref="U2_NULL">
+      <value>ZERO_DRIFT_RRIO_TBD</value>
+      <fields>
+        <field name="Fitted">true</field>
+        <field name="MIL">NULL AMP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="OPAMP" description="Operational amplifier, single"/>
+      <property name="Fitted" value="true"/>
+      <property name="MIL" value="NULL AMP"/>
+      <property name="Sheetname" value="Channel 2"/>
+      <property name="Sheetfile" value="opamp_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/Channel 2/" tstamps="/26974426-3c50-43f8-8932-1b1978ee6719/"/>
+      <tstamps>124d3455-3eee-4c6d-81ea-aa0fab297962</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="OPAMP">
+      <description>Operational amplifier, single</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">${SIM.PARAMS}</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Operational amplifier, single</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/workspace/scratch/be652cf4d594/opamp_block/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/workspace/scratch/be652cf4d594/opamp_block/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/workspace/scratch/be652cf4d594/opamp_block/Device.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>/workspace/scratch/be652cf4d594/opamp_block/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/workspace/scratch/be652cf4d594/opamp_block/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AGND">
+      <node ref="C_AUX1" pin="2" pintype="passive"/>
+      <node ref="C_AUX2" pin="2" pintype="passive"/>
+      <node ref="C_REF1" pin="2" pintype="passive"/>
+      <node ref="C_REF2A" pin="2" pintype="passive"/>
+      <node ref="C_REF2B" pin="2" pintype="passive"/>
+      <node ref="C_VAA1" pin="2" pintype="passive"/>
+      <node ref="C_VAA2" pin="2" pintype="passive"/>
+      <node ref="J1_BSIG" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J1_DSIG" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2_BSIG" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2_DSIG" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="R_REF2" pin="2" pintype="passive"/>
+      <node ref="U1_NULL" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2_NULL" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U_REF" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="2" name="/AUX_5V">
+      <node ref="C_AUX1" pin="1" pintype="passive"/>
+      <node ref="C_AUX2" pin="1" pintype="passive"/>
+      <node ref="J_AUX" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1_NULL" pin="3" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2_NULL" pin="3" pinfunction="V+" pintype="power_in"/>
+      <node ref="U_REF" pin="3" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="/Channel 1/CH1_A_INN">
+      <node ref="JP1A_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_A3A" pin="2" pintype="passive"/>
+      <node ref="SW1_A1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="4" name="/Channel 1/CH1_A_INP">
+      <node ref="JP1A_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_A3B" pin="2" pintype="passive"/>
+      <node ref="SW1_A2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="5" name="/Channel 1/CH1_A_NIP">
+      <node ref="R1_A3B" pin="1" pintype="passive"/>
+      <node ref="R1_A4" pin="2" pintype="passive"/>
+      <node ref="SW1_A2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="6" name="/Channel 1/CH1_A_OUT">
+      <node ref="JP1A_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_A2" pin="2" pintype="passive"/>
+      <node ref="TP1_EA0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Channel 1/CH1_A_SUM">
+      <node ref="R1_A1" pin="2" pintype="passive"/>
+      <node ref="R1_A2" pin="1" pintype="passive"/>
+      <node ref="R1_A3A" pin="1" pintype="passive"/>
+      <node ref="SW1_A1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="/Channel 1/CH1_B_GJ">
+      <node ref="JP1_BG" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_BG" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/Channel 1/CH1_B_INN">
+      <node ref="JP1B_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_BF" pin="2" pintype="passive"/>
+      <node ref="R1_BG" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/Channel 1/CH1_B_INP">
+      <node ref="JP1B_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_BBIAS" pin="1" pintype="passive"/>
+      <node ref="R1_BIN" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Channel 1/CH1_B_OUT">
+      <node ref="JP1B_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_BF" pin="1" pintype="passive"/>
+      <node ref="TP1_EB0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/Channel 1/CH1_B_SIG">
+      <node ref="C1_BAC" pin="2" pintype="passive"/>
+      <node ref="R1_BDIR" pin="2" pintype="passive"/>
+      <node ref="R1_BIN" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/Channel 1/CH1_B_SIGIN">
+      <node ref="C1_BAC" pin="1" pintype="passive"/>
+      <node ref="J1_BSIG" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R1_BDIR" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/Channel 1/CH1_B_V1">
+      <node ref="J1_BV1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1_BG" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1_BV1" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/Channel 1/CH1_C_INN">
+      <node ref="JP1C_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_C1A" pin="2" pintype="passive"/>
+      <node ref="R1_C2" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/Channel 1/CH1_C_INP">
+      <node ref="JP1C_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_C1B" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/Channel 1/CH1_C_LOOP">
+      <node ref="JP1_C" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1_C2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/Channel 1/CH1_C_NULLOUT">
+      <node ref="C1_CNULL" pin="1" pintype="passive"/>
+      <node ref="JP1_C" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP1_EC0" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1_NULL" pin="5" pintype="output"/>
+    </net>
+    <net code="19" name="/Channel 1/CH1_C_OUT">
+      <node ref="JP1C_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_CL" pin="1" pintype="passive"/>
+      <node ref="TP1_V2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1_NULL" pin="1" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="20" name="/Channel 1/CH1_C_VCN">
+      <node ref="C1_CNULL" pin="2" pintype="passive"/>
+      <node ref="R1_CVC" pin="2" pintype="passive"/>
+      <node ref="U1_NULL" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="21" name="/Channel 1/CH1_DSIG">
+      <node ref="J1_DSIG" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R1_D2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/Channel 1/CH1_D_INJ">
+      <node ref="C1_D2" pin="2" pintype="passive"/>
+      <node ref="R1_D2" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/Channel 1/CH1_D_INN">
+      <node ref="C1_D1A" pin="1" pintype="passive"/>
+      <node ref="JP1D_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_D1A" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/Channel 1/CH1_D_INP">
+      <node ref="C1_D1B" pin="1" pintype="passive"/>
+      <node ref="JP1D_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_D1B" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/Channel 1/CH1_D_OUT">
+      <node ref="C1_D2" pin="1" pintype="passive"/>
+      <node ref="JP1D_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_D1A" pin="1" pintype="passive"/>
+      <node ref="TP1_V0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/Channel 1/CH1_V1TERM">
+      <node ref="J1_V1C" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_CL" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/Channel 1/CH1_VCTERM">
+      <node ref="J1_VC" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1_CVC" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/Channel 1/CH1_VQI">
+      <node ref="R1_A1" pin="1" pintype="passive"/>
+      <node ref="R1_A4" pin="1" pintype="passive"/>
+      <node ref="R1_AVQI" pin="2" pintype="passive"/>
+      <node ref="TP1_VQI" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/Channel 2/CH2_A_INN">
+      <node ref="JP2A_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_A3A" pin="2" pintype="passive"/>
+      <node ref="SW2_A1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="30" name="/Channel 2/CH2_A_INP">
+      <node ref="JP2A_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_A3B" pin="2" pintype="passive"/>
+      <node ref="SW2_A2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="31" name="/Channel 2/CH2_A_NIP">
+      <node ref="R2_A3B" pin="1" pintype="passive"/>
+      <node ref="R2_A4" pin="2" pintype="passive"/>
+      <node ref="SW2_A2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="32" name="/Channel 2/CH2_A_OUT">
+      <node ref="JP2A_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_A2" pin="2" pintype="passive"/>
+      <node ref="TP2_EA0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/Channel 2/CH2_A_SUM">
+      <node ref="R2_A1" pin="2" pintype="passive"/>
+      <node ref="R2_A2" pin="1" pintype="passive"/>
+      <node ref="R2_A3A" pin="1" pintype="passive"/>
+      <node ref="SW2_A1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="34" name="/Channel 2/CH2_B_GJ">
+      <node ref="JP2_BG" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_BG" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="/Channel 2/CH2_B_INN">
+      <node ref="JP2B_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_BF" pin="2" pintype="passive"/>
+      <node ref="R2_BG" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/Channel 2/CH2_B_INP">
+      <node ref="JP2B_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_BBIAS" pin="1" pintype="passive"/>
+      <node ref="R2_BIN" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/Channel 2/CH2_B_OUT">
+      <node ref="JP2B_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_BF" pin="1" pintype="passive"/>
+      <node ref="TP2_EB0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/Channel 2/CH2_B_SIG">
+      <node ref="C2_BAC" pin="2" pintype="passive"/>
+      <node ref="R2_BDIR" pin="2" pintype="passive"/>
+      <node ref="R2_BIN" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/Channel 2/CH2_B_SIGIN">
+      <node ref="C2_BAC" pin="1" pintype="passive"/>
+      <node ref="J2_BSIG" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R2_BDIR" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/Channel 2/CH2_B_V1">
+      <node ref="J2_BV1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP2_BG" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2_BV1" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="/Channel 2/CH2_C_INN">
+      <node ref="JP2C_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_C1A" pin="2" pintype="passive"/>
+      <node ref="R2_C2" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/Channel 2/CH2_C_INP">
+      <node ref="JP2C_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_C1B" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="/Channel 2/CH2_C_LOOP">
+      <node ref="JP2_C" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2_C2" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/Channel 2/CH2_C_NULLOUT">
+      <node ref="C2_CNULL" pin="1" pintype="passive"/>
+      <node ref="JP2_C" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP2_EC0" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2_NULL" pin="5" pintype="output"/>
+    </net>
+    <net code="45" name="/Channel 2/CH2_C_OUT">
+      <node ref="JP2C_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_CL" pin="1" pintype="passive"/>
+      <node ref="TP2_V2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2_NULL" pin="1" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="46" name="/Channel 2/CH2_C_VCN">
+      <node ref="C2_CNULL" pin="2" pintype="passive"/>
+      <node ref="R2_CVC" pin="2" pintype="passive"/>
+      <node ref="U2_NULL" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="47" name="/Channel 2/CH2_DSIG">
+      <node ref="J2_DSIG" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R2_D2" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="/Channel 2/CH2_D_INJ">
+      <node ref="C2_D2" pin="2" pintype="passive"/>
+      <node ref="R2_D2" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="/Channel 2/CH2_D_INN">
+      <node ref="C2_D1A" pin="1" pintype="passive"/>
+      <node ref="JP2D_INN" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_D1A" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="/Channel 2/CH2_D_INP">
+      <node ref="C2_D1B" pin="1" pintype="passive"/>
+      <node ref="JP2D_INP" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_D1B" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="/Channel 2/CH2_D_OUT">
+      <node ref="C2_D2" pin="1" pintype="passive"/>
+      <node ref="JP2D_OUT" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_D1A" pin="1" pintype="passive"/>
+      <node ref="TP2_V0" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="52" name="/Channel 2/CH2_V1TERM">
+      <node ref="J2_V1C" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_CL" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="/Channel 2/CH2_VCTERM">
+      <node ref="J2_VC" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2_CVC" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="/Channel 2/CH2_VQI">
+      <node ref="R2_A1" pin="1" pintype="passive"/>
+      <node ref="R2_A4" pin="1" pintype="passive"/>
+      <node ref="R2_AVQI" pin="2" pintype="passive"/>
+      <node ref="TP2_VQI" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="55" name="/OP1_INN">
+      <node ref="JP1A_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1B_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1C_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1D_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="56" name="/OP1_INP">
+      <node ref="JP1A_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1B_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1C_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1D_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="57" name="/OP1_OUT">
+      <node ref="JP1A_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1B_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1C_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1D_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="58" name="/OP2_INN">
+      <node ref="JP2A_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2B_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2C_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2D_INN" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="59" name="/OP2_INP">
+      <node ref="JP2A_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2B_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2C_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2D_INP" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="60" name="/OP2_OUT">
+      <node ref="JP2A_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2B_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2C_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2D_OUT" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="61" name="/REF">
+      <node ref="C1_D1A" pin="2" pintype="passive"/>
+      <node ref="C1_D1B" pin="2" pintype="passive"/>
+      <node ref="C2_D1A" pin="2" pintype="passive"/>
+      <node ref="C2_D1B" pin="2" pintype="passive"/>
+      <node ref="C_REF2A" pin="1" pintype="passive"/>
+      <node ref="C_REF2B" pin="1" pintype="passive"/>
+      <node ref="R1_AVQI" pin="1" pintype="passive"/>
+      <node ref="R1_BBIAS" pin="2" pintype="passive"/>
+      <node ref="R1_BV1" pin="1" pintype="passive"/>
+      <node ref="R1_C1A" pin="1" pintype="passive"/>
+      <node ref="R1_C1B" pin="1" pintype="passive"/>
+      <node ref="R1_D1B" pin="1" pintype="passive"/>
+      <node ref="R2_AVQI" pin="1" pintype="passive"/>
+      <node ref="R2_BBIAS" pin="2" pintype="passive"/>
+      <node ref="R2_BV1" pin="1" pintype="passive"/>
+      <node ref="R2_C1A" pin="1" pintype="passive"/>
+      <node ref="R2_C1B" pin="1" pintype="passive"/>
+      <node ref="R2_D1B" pin="1" pintype="passive"/>
+      <node ref="R_REFISO" pin="2" pintype="passive"/>
+      <node ref="U_REF" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="62" name="/REF_DIV">
+      <node ref="C_REF1" pin="1" pintype="passive"/>
+      <node ref="R_REF1" pin="2" pintype="passive"/>
+      <node ref="R_REF2" pin="1" pintype="passive"/>
+      <node ref="U_REF" pin="1" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="63" name="/U_REF_OUT">
+      <node ref="R_REFISO" pin="1" pintype="passive"/>
+      <node ref="U_REF" pin="5" pintype="output"/>
+    </net>
+    <net code="64" name="/VAA">
+      <node ref="C_VAA1" pin="1" pintype="passive"/>
+      <node ref="C_VAA2" pin="1" pintype="passive"/>
+      <node ref="R_REF1" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

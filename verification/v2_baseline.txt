@@ -1,0 +1,2 @@
+PASS: v4 internal component types and all 64 net memberships agree with the independently supplied v2 checker after removing only DUT, J_VAA, JP_IVAA, J_SCAN and R_GNDLINK, and the now-empty board-wide nets.
+The original v2 checker itself is not valid for this new hierarchy.

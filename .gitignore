@@ -1,0 +1,44 @@
+# --- KiCad ---
+# Backups / autosave
+*-bak
+*.bak
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+*.tmp
+
+# Lock files (per-user, don't commit)
+*.lck
+~*.lck
+*-lock
+
+# Generated caches (regenerate locally)
+fp-info-cache
+*.kicad_prl
+
+# Plotted/fab outputs
+fab/*.zip
+fab/*.gbr
+fab/*.drl
+fab/*.pos
+fab/*.csv
+
+# 3D model caches
+*.3dshapes/*.lck
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# --- Python (tools/, checker) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Word/Office temp files ---
+~$*.docx
+~$*.xlsx

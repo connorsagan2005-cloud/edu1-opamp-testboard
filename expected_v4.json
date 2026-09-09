@@ -1,0 +1,1163 @@
+{
+  "components": [
+    {
+      "ref": "C_VAA1",
+      "type": "C",
+      "value": "100n",
+      "fitted": true
+    },
+    {
+      "ref": "C_VAA2",
+      "type": "C",
+      "value": "10u",
+      "fitted": true
+    },
+    {
+      "ref": "R_REF1",
+      "type": "R",
+      "value": "10k",
+      "tol": "0.1%",
+      "fitted": true
+    },
+    {
+      "ref": "R_REF2",
+      "type": "R",
+      "value": "10k",
+      "tol": "0.1%",
+      "fitted": true
+    },
+    {
+      "ref": "C_REF1",
+      "type": "C",
+      "value": "10u",
+      "fitted": true
+    },
+    {
+      "ref": "U_REF",
+      "type": "OPAMP",
+      "value": "ZERO_DRIFT_RRIO_TBD",
+      "fitted": true
+    },
+    {
+      "ref": "R_REFISO",
+      "type": "R",
+      "value": "10",
+      "fitted": true
+    },
+    {
+      "ref": "C_REF2A",
+      "type": "C",
+      "value": "10u",
+      "fitted": false
+    },
+    {
+      "ref": "C_REF2B",
+      "type": "C",
+      "value": "100n",
+      "fitted": true
+    },
+    {
+      "ref": "J_AUX",
+      "type": "J1",
+      "value": "AUX_5V_BENCH",
+      "fitted": true
+    },
+    {
+      "ref": "C_AUX1",
+      "type": "C",
+      "value": "100n",
+      "fitted": true
+    },
+    {
+      "ref": "C_AUX2",
+      "type": "C",
+      "value": "10u",
+      "fitted": true
+    },
+    {
+      "ref": "R1_A1",
+      "type": "R",
+      "value": "10k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R1"
+    },
+    {
+      "ref": "R1_A2",
+      "type": "R",
+      "value": "1M",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R2"
+    },
+    {
+      "ref": "R1_A3A",
+      "type": "R",
+      "value": "10M",
+      "fitted": true,
+      "mil": "R3 inverting"
+    },
+    {
+      "ref": "R1_A3B",
+      "type": "R",
+      "value": "10M",
+      "fitted": true,
+      "mil": "R3 noninverting"
+    },
+    {
+      "ref": "R1_A4",
+      "type": "R",
+      "value": "9k90",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R4 = R1||R2"
+    },
+    {
+      "ref": "R1_AVQI",
+      "type": "R",
+      "value": "0",
+      "fitted": true,
+      "mil": "VQI source link"
+    },
+    {
+      "ref": "SW1_A1",
+      "type": "SW",
+      "fitted": true,
+      "mil": "S1"
+    },
+    {
+      "ref": "SW1_A2",
+      "type": "SW",
+      "fitted": true,
+      "mil": "S2"
+    },
+    {
+      "ref": "JP1A_INN",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1A_INP",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1A_OUT",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "TP1_EA0",
+      "type": "TP",
+      "fitted": true,
+      "mil": "E0"
+    },
+    {
+      "ref": "TP1_VQI",
+      "type": "TP",
+      "fitted": true,
+      "mil": "VQI"
+    },
+    {
+      "ref": "R1_BF",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "4002-1 R1 / 4004-4 R2"
+    },
+    {
+      "ref": "R1_BIN",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "4002-1 R2 / 4004-4 R3"
+    },
+    {
+      "ref": "R1_BG",
+      "type": "R",
+      "value": "10",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "4004-4 R1 gain leg"
+    },
+    {
+      "ref": "R1_BV1",
+      "type": "R",
+      "value": "0",
+      "fitted": true,
+      "mil": "4004-4 V1 link"
+    },
+    {
+      "ref": "R1_BDIR",
+      "type": "R",
+      "value": "0",
+      "fitted": true
+    },
+    {
+      "ref": "C1_BAC",
+      "type": "C",
+      "value": "1u",
+      "fitted": false
+    },
+    {
+      "ref": "R1_BBIAS",
+      "type": "R",
+      "value": "10k",
+      "fitted": false
+    },
+    {
+      "ref": "JP1_BG",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1B_INN",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1B_INP",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1B_OUT",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "J1_BSIG",
+      "type": "SMA",
+      "value": "GENERATOR",
+      "fitted": true,
+      "mil": "V1 / eI"
+    },
+    {
+      "ref": "J1_BV1",
+      "type": "J1",
+      "value": "V1_BIAS",
+      "fitted": true
+    },
+    {
+      "ref": "TP1_EB0",
+      "type": "TP",
+      "fitted": true,
+      "mil": "E0 / e0"
+    },
+    {
+      "ref": "R1_C1A",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R1 inverting"
+    },
+    {
+      "ref": "R1_C1B",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R1 noninverting"
+    },
+    {
+      "ref": "R1_C2",
+      "type": "R",
+      "value": "TBD-AD",
+      "fitted": true,
+      "mil": "R2"
+    },
+    {
+      "ref": "R1_CL",
+      "type": "R",
+      "value": "TBD",
+      "fitted": true,
+      "mil": "RL"
+    },
+    {
+      "ref": "R1_CVC",
+      "type": "R",
+      "value": "0",
+      "fitted": true
+    },
+    {
+      "ref": "C1_CNULL",
+      "type": "C",
+      "value": "TBD",
+      "fitted": false
+    },
+    {
+      "ref": "U1_NULL",
+      "type": "OPAMP",
+      "value": "ZERO_DRIFT_RRIO_TBD",
+      "fitted": true,
+      "mil": "NULL AMP"
+    },
+    {
+      "ref": "JP1_C",
+      "type": "JP",
+      "fitted": true,
+      "mil": "S4"
+    },
+    {
+      "ref": "JP1C_INN",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1C_INP",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP1C_OUT",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "J1_VC",
+      "type": "J1",
+      "value": "VC",
+      "fitted": true,
+      "mil": "VC"
+    },
+    {
+      "ref": "J1_V1C",
+      "type": "J1",
+      "value": "V1",
+      "fitted": true,
+      "mil": "V1"
+    },
+    {
+      "ref": "TP1_V2",
+      "type": "TP",
+      "fitted": true,
+      "mil": "V2"
+    },
+    {
+      "ref": "TP1_EC0",
+      "type": "TP",
+      "fitted": true,
+      "mil": "E0 loop output"
+    },
+    {
+      "ref": "R1_D1A",
+      "type": "R",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "R1 feedback"
+    },
+    {
+      "ref": "R1_D1B",
+      "type": "R",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "R1"
+    },
+    {
+      "ref": "C1_D1A",
+      "type": "C",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "C1 inverting"
+    },
+    {
+      "ref": "C1_D1B",
+      "type": "C",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "C1 noninverting"
+    },
+    {
+      "ref": "C1_D2",
+      "type": "C",
+      "value": "TBD",
+      "fitted": false,
+      "mil": "C2"
+    },
+    {
+      "ref": "R1_D2",
+      "type": "R",
+      "value": "TBD",
+      "fitted": false,
+      "mil": "R2 ~= nominal ZO"
+    },
+    {
+      "ref": "JP1D_INN",
+      "type": "JP",
+      "fitted": false
+    },
+    {
+      "ref": "JP1D_INP",
+      "type": "JP",
+      "fitted": false
+    },
+    {
+      "ref": "JP1D_OUT",
+      "type": "JP",
+      "fitted": false
+    },
+    {
+      "ref": "J1_DSIG",
+      "type": "SMA",
+      "value": "GENERATOR",
+      "fitted": false,
+      "mil": "V2"
+    },
+    {
+      "ref": "TP1_V0",
+      "type": "TP",
+      "fitted": false,
+      "mil": "V0"
+    },
+    {
+      "ref": "R2_A1",
+      "type": "R",
+      "value": "10k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R1"
+    },
+    {
+      "ref": "R2_A2",
+      "type": "R",
+      "value": "1M",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R2"
+    },
+    {
+      "ref": "R2_A3A",
+      "type": "R",
+      "value": "10M",
+      "fitted": true,
+      "mil": "R3 inverting"
+    },
+    {
+      "ref": "R2_A3B",
+      "type": "R",
+      "value": "10M",
+      "fitted": true,
+      "mil": "R3 noninverting"
+    },
+    {
+      "ref": "R2_A4",
+      "type": "R",
+      "value": "9k90",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R4 = R1||R2"
+    },
+    {
+      "ref": "R2_AVQI",
+      "type": "R",
+      "value": "0",
+      "fitted": true,
+      "mil": "VQI source link"
+    },
+    {
+      "ref": "SW2_A1",
+      "type": "SW",
+      "fitted": true,
+      "mil": "S1"
+    },
+    {
+      "ref": "SW2_A2",
+      "type": "SW",
+      "fitted": true,
+      "mil": "S2"
+    },
+    {
+      "ref": "JP2A_INN",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2A_INP",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2A_OUT",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "TP2_EA0",
+      "type": "TP",
+      "fitted": true,
+      "mil": "E0"
+    },
+    {
+      "ref": "TP2_VQI",
+      "type": "TP",
+      "fitted": true,
+      "mil": "VQI"
+    },
+    {
+      "ref": "R2_BF",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "4002-1 R1 / 4004-4 R2"
+    },
+    {
+      "ref": "R2_BIN",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "4002-1 R2 / 4004-4 R3"
+    },
+    {
+      "ref": "R2_BG",
+      "type": "R",
+      "value": "10",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "4004-4 R1 gain leg"
+    },
+    {
+      "ref": "R2_BV1",
+      "type": "R",
+      "value": "0",
+      "fitted": true,
+      "mil": "4004-4 V1 link"
+    },
+    {
+      "ref": "R2_BDIR",
+      "type": "R",
+      "value": "0",
+      "fitted": true
+    },
+    {
+      "ref": "C2_BAC",
+      "type": "C",
+      "value": "1u",
+      "fitted": false
+    },
+    {
+      "ref": "R2_BBIAS",
+      "type": "R",
+      "value": "10k",
+      "fitted": false
+    },
+    {
+      "ref": "JP2_BG",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2B_INN",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2B_INP",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2B_OUT",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "J2_BSIG",
+      "type": "SMA",
+      "value": "GENERATOR",
+      "fitted": true,
+      "mil": "V1 / eI"
+    },
+    {
+      "ref": "J2_BV1",
+      "type": "J1",
+      "value": "V1_BIAS",
+      "fitted": true
+    },
+    {
+      "ref": "TP2_EB0",
+      "type": "TP",
+      "fitted": true,
+      "mil": "E0 / e0"
+    },
+    {
+      "ref": "R2_C1A",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R1 inverting"
+    },
+    {
+      "ref": "R2_C1B",
+      "type": "R",
+      "value": "1k",
+      "tol": "0.1%",
+      "fitted": true,
+      "mil": "R1 noninverting"
+    },
+    {
+      "ref": "R2_C2",
+      "type": "R",
+      "value": "TBD-AD",
+      "fitted": true,
+      "mil": "R2"
+    },
+    {
+      "ref": "R2_CL",
+      "type": "R",
+      "value": "TBD",
+      "fitted": true,
+      "mil": "RL"
+    },
+    {
+      "ref": "R2_CVC",
+      "type": "R",
+      "value": "0",
+      "fitted": true
+    },
+    {
+      "ref": "C2_CNULL",
+      "type": "C",
+      "value": "TBD",
+      "fitted": false
+    },
+    {
+      "ref": "U2_NULL",
+      "type": "OPAMP",
+      "value": "ZERO_DRIFT_RRIO_TBD",
+      "fitted": true,
+      "mil": "NULL AMP"
+    },
+    {
+      "ref": "JP2_C",
+      "type": "JP",
+      "fitted": true,
+      "mil": "S4"
+    },
+    {
+      "ref": "JP2C_INN",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2C_INP",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "JP2C_OUT",
+      "type": "JP",
+      "fitted": true
+    },
+    {
+      "ref": "J2_VC",
+      "type": "J1",
+      "value": "VC",
+      "fitted": true,
+      "mil": "VC"
+    },
+    {
+      "ref": "J2_V1C",
+      "type": "J1",
+      "value": "V1",
+      "fitted": true,
+      "mil": "V1"
+    },
+    {
+      "ref": "TP2_V2",
+      "type": "TP",
+      "fitted": true,
+      "mil": "V2"
+    },
+    {
+      "ref": "TP2_EC0",
+      "type": "TP",
+      "fitted": true,
+      "mil": "E0 loop output"
+    },
+    {
+      "ref": "R2_D1A",
+      "type": "R",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "R1 feedback"
+    },
+    {
+      "ref": "R2_D1B",
+      "type": "R",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "R1"
+    },
+    {
+      "ref": "C2_D1A",
+      "type": "C",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "C1 inverting"
+    },
+    {
+      "ref": "C2_D1B",
+      "type": "C",
+      "value": "TBD-AD",
+      "fitted": false,
+      "mil": "C1 noninverting"
+    },
+    {
+      "ref": "C2_D2",
+      "type": "C",
+      "value": "TBD",
+      "fitted": false,
+      "mil": "C2"
+    },
+    {
+      "ref": "R2_D2",
+      "type": "R",
+      "value": "TBD",
+      "fitted": false,
+      "mil": "R2 ~= nominal ZO"
+    },
+    {
+      "ref": "JP2D_INN",
+      "type": "JP",
+      "fitted": false
+    },
+    {
+      "ref": "JP2D_INP",
+      "type": "JP",
+      "fitted": false
+    },
+    {
+      "ref": "JP2D_OUT",
+      "type": "JP",
+      "fitted": false
+    },
+    {
+      "ref": "J2_DSIG",
+      "type": "SMA",
+      "value": "GENERATOR",
+      "fitted": false,
+      "mil": "V2"
+    },
+    {
+      "ref": "TP2_V0",
+      "type": "TP",
+      "fitted": false,
+      "mil": "V0"
+    }
+  ],
+  "nets": {
+    "VAA": [
+      "vaa",
+      "C_VAA1.1",
+      "C_VAA2.1",
+      "R_REF1.1"
+    ],
+    "REF_DIV": [
+      "R_REF1.2",
+      "R_REF2.1",
+      "C_REF1.1",
+      "U_REF.+"
+    ],
+    "U_REF_OUT": [
+      "U_REF.OUT",
+      "R_REFISO.1"
+    ],
+    "REF": [
+      "R_REFISO.2",
+      "U_REF.-",
+      "C_REF2A.1",
+      "C_REF2B.1",
+      "R1_AVQI.1",
+      "R1_BV1.1",
+      "R1_BBIAS.2",
+      "R1_C1A.1",
+      "R1_C1B.1",
+      "C1_D1A.2",
+      "C1_D1B.2",
+      "R1_D1B.1",
+      "R2_AVQI.1",
+      "R2_BV1.1",
+      "R2_BBIAS.2",
+      "R2_C1A.1",
+      "R2_C1B.1",
+      "C2_D1A.2",
+      "C2_D1B.2",
+      "R2_D1B.1"
+    ],
+    "AUX_5V": [
+      "J_AUX.1",
+      "C_AUX1.1",
+      "C_AUX2.1",
+      "U_REF.V+",
+      "U1_NULL.V+",
+      "U2_NULL.V+"
+    ],
+    "AGND": [
+      "agnd",
+      "C_VAA1.2",
+      "C_VAA2.2",
+      "R_REF2.2",
+      "C_REF1.2",
+      "C_REF2A.2",
+      "C_REF2B.2",
+      "C_AUX1.2",
+      "C_AUX2.2",
+      "U_REF.V-",
+      "U1_NULL.V-",
+      "U2_NULL.V-",
+      "J1_BSIG.2",
+      "J1_DSIG.2",
+      "J2_BSIG.2",
+      "J2_DSIG.2"
+    ],
+    "OP1_INN": [
+      "op1_inn",
+      "JP1A_INN.2",
+      "JP1B_INN.2",
+      "JP1C_INN.2",
+      "JP1D_INN.2"
+    ],
+    "OP1_INP": [
+      "op1_inp",
+      "JP1A_INP.2",
+      "JP1B_INP.2",
+      "JP1C_INP.2",
+      "JP1D_INP.2"
+    ],
+    "OP1_OUT": [
+      "op1_out",
+      "JP1A_OUT.2",
+      "JP1B_OUT.2",
+      "JP1C_OUT.2",
+      "JP1D_OUT.2"
+    ],
+    "CH1_VQI": [
+      "R1_AVQI.2",
+      "R1_A1.1",
+      "R1_A4.1",
+      "TP1_VQI.1"
+    ],
+    "CH1_A_SUM": [
+      "R1_A1.2",
+      "R1_A2.1",
+      "R1_A3A.1",
+      "SW1_A1.1"
+    ],
+    "CH1_A_INN": [
+      "R1_A3A.2",
+      "SW1_A1.2",
+      "JP1A_INN.1"
+    ],
+    "CH1_A_NIP": [
+      "R1_A4.2",
+      "R1_A3B.1",
+      "SW1_A2.1"
+    ],
+    "CH1_A_INP": [
+      "R1_A3B.2",
+      "SW1_A2.2",
+      "JP1A_INP.1"
+    ],
+    "CH1_A_OUT": [
+      "R1_A2.2",
+      "JP1A_OUT.1",
+      "TP1_EA0.1"
+    ],
+    "CH1_B_SIGIN": [
+      "J1_BSIG.1",
+      "R1_BDIR.1",
+      "C1_BAC.1"
+    ],
+    "CH1_B_SIG": [
+      "R1_BDIR.2",
+      "C1_BAC.2",
+      "R1_BIN.1"
+    ],
+    "CH1_B_INP": [
+      "R1_BIN.2",
+      "JP1B_INP.1",
+      "R1_BBIAS.1"
+    ],
+    "CH1_B_INN": [
+      "R1_BF.2",
+      "R1_BG.1",
+      "JP1B_INN.1"
+    ],
+    "CH1_B_GJ": [
+      "R1_BG.2",
+      "JP1_BG.1"
+    ],
+    "CH1_B_V1": [
+      "JP1_BG.2",
+      "R1_BV1.2",
+      "J1_BV1.1"
+    ],
+    "CH1_B_OUT": [
+      "R1_BF.1",
+      "JP1B_OUT.1",
+      "TP1_EB0.1"
+    ],
+    "CH1_C_INN": [
+      "R1_C1A.2",
+      "R1_C2.1",
+      "JP1C_INN.1"
+    ],
+    "CH1_C_INP": [
+      "R1_C1B.2",
+      "JP1C_INP.1"
+    ],
+    "CH1_C_OUT": [
+      "JP1C_OUT.1",
+      "R1_CL.1",
+      "U1_NULL.+",
+      "TP1_V2.1"
+    ],
+    "CH1_V1TERM": [
+      "R1_CL.2",
+      "J1_V1C.1"
+    ],
+    "CH1_C_VCN": [
+      "U1_NULL.-",
+      "R1_CVC.2",
+      "C1_CNULL.2"
+    ],
+    "CH1_VCTERM": [
+      "R1_CVC.1",
+      "J1_VC.1"
+    ],
+    "CH1_C_NULLOUT": [
+      "U1_NULL.OUT",
+      "JP1_C.1",
+      "C1_CNULL.1",
+      "TP1_EC0.1"
+    ],
+    "CH1_C_LOOP": [
+      "JP1_C.2",
+      "R1_C2.2"
+    ],
+    "CH1_D_INN": [
+      "R1_D1A.2",
+      "C1_D1A.1",
+      "JP1D_INN.1"
+    ],
+    "CH1_D_INP": [
+      "R1_D1B.2",
+      "C1_D1B.1",
+      "JP1D_INP.1"
+    ],
+    "CH1_D_OUT": [
+      "R1_D1A.1",
+      "C1_D2.1",
+      "JP1D_OUT.1",
+      "TP1_V0.1"
+    ],
+    "CH1_D_INJ": [
+      "C1_D2.2",
+      "R1_D2.1"
+    ],
+    "CH1_DSIG": [
+      "R1_D2.2",
+      "J1_DSIG.1"
+    ],
+    "OP2_INN": [
+      "op2_inn",
+      "JP2A_INN.2",
+      "JP2B_INN.2",
+      "JP2C_INN.2",
+      "JP2D_INN.2"
+    ],
+    "OP2_INP": [
+      "op2_inp",
+      "JP2A_INP.2",
+      "JP2B_INP.2",
+      "JP2C_INP.2",
+      "JP2D_INP.2"
+    ],
+    "OP2_OUT": [
+      "op2_out",
+      "JP2A_OUT.2",
+      "JP2B_OUT.2",
+      "JP2C_OUT.2",
+      "JP2D_OUT.2"
+    ],
+    "CH2_VQI": [
+      "R2_AVQI.2",
+      "R2_A1.1",
+      "R2_A4.1",
+      "TP2_VQI.1"
+    ],
+    "CH2_A_SUM": [
+      "R2_A1.2",
+      "R2_A2.1",
+      "R2_A3A.1",
+      "SW2_A1.1"
+    ],
+    "CH2_A_INN": [
+      "R2_A3A.2",
+      "SW2_A1.2",
+      "JP2A_INN.1"
+    ],
+    "CH2_A_NIP": [
+      "R2_A4.2",
+      "R2_A3B.1",
+      "SW2_A2.1"
+    ],
+    "CH2_A_INP": [
+      "R2_A3B.2",
+      "SW2_A2.2",
+      "JP2A_INP.1"
+    ],
+    "CH2_A_OUT": [
+      "R2_A2.2",
+      "JP2A_OUT.1",
+      "TP2_EA0.1"
+    ],
+    "CH2_B_SIGIN": [
+      "J2_BSIG.1",
+      "R2_BDIR.1",
+      "C2_BAC.1"
+    ],
+    "CH2_B_SIG": [
+      "R2_BDIR.2",
+      "C2_BAC.2",
+      "R2_BIN.1"
+    ],
+    "CH2_B_INP": [
+      "R2_BIN.2",
+      "JP2B_INP.1",
+      "R2_BBIAS.1"
+    ],
+    "CH2_B_INN": [
+      "R2_BF.2",
+      "R2_BG.1",
+      "JP2B_INN.1"
+    ],
+    "CH2_B_GJ": [
+      "R2_BG.2",
+      "JP2_BG.1"
+    ],
+    "CH2_B_V1": [
+      "JP2_BG.2",
+      "R2_BV1.2",
+      "J2_BV1.1"
+    ],
+    "CH2_B_OUT": [
+      "R2_BF.1",
+      "JP2B_OUT.1",
+      "TP2_EB0.1"
+    ],
+    "CH2_C_INN": [
+      "R2_C1A.2",
+      "R2_C2.1",
+      "JP2C_INN.1"
+    ],
+    "CH2_C_INP": [
+      "R2_C1B.2",
+      "JP2C_INP.1"
+    ],
+    "CH2_C_OUT": [
+      "JP2C_OUT.1",
+      "R2_CL.1",
+      "U2_NULL.+",
+      "TP2_V2.1"
+    ],
+    "CH2_V1TERM": [
+      "R2_CL.2",
+      "J2_V1C.1"
+    ],
+    "CH2_C_VCN": [
+      "U2_NULL.-",
+      "R2_CVC.2",
+      "C2_CNULL.2"
+    ],
+    "CH2_VCTERM": [
+      "R2_CVC.1",
+      "J2_VC.1"
+    ],
+    "CH2_C_NULLOUT": [
+      "U2_NULL.OUT",
+      "JP2_C.1",
+      "C2_CNULL.1",
+      "TP2_EC0.1"
+    ],
+    "CH2_C_LOOP": [
+      "JP2_C.2",
+      "R2_C2.2"
+    ],
+    "CH2_D_INN": [
+      "R2_D1A.2",
+      "C2_D1A.1",
+      "JP2D_INN.1"
+    ],
+    "CH2_D_INP": [
+      "R2_D1B.2",
+      "C2_D1B.1",
+      "JP2D_INP.1"
+    ],
+    "CH2_D_OUT": [
+      "R2_D1A.1",
+      "C2_D2.1",
+      "JP2D_OUT.1",
+      "TP2_V0.1"
+    ],
+    "CH2_D_INJ": [
+      "C2_D2.2",
+      "R2_D2.1"
+    ],
+    "CH2_DSIG": [
+      "R2_D2.2",
+      "J2_DSIG.1"
+    ]
+  },
+  "external": {
+    "vaa": "VAA",
+    "agnd": "AGND",
+    "op1_inp": "OP1_INP",
+    "op1_inn": "OP1_INN",
+    "op1_out": "OP1_OUT",
+    "op2_inp": "OP2_INP",
+    "op2_inn": "OP2_INN",
+    "op2_out": "OP2_OUT"
+  },
+  "symbol_pin_maps": {
+    "R": {
+      "1": "1",
+      "2": "2"
+    },
+    "C": {
+      "1": "1",
+      "2": "2"
+    },
+    "SW": {
+      "1": "1",
+      "2": "2"
+    },
+    "JP": {
+      "1": "1",
+      "2": "2"
+    },
+    "TP": {
+      "1": "1"
+    },
+    "J1": {
+      "1": "1"
+    },
+    "SMA": {
+      "1": "1",
+      "2": "2"
+    },
+    "OPAMP": {
+      "1": "+",
+      "2": "-",
+      "3": "V+",
+      "4": "V-",
+      "5": "OUT"
+    }
+  }
+}
