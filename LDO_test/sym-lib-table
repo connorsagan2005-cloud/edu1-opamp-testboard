@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MQP_KICAD") (type "KiCad") (uri "${KIPRJMOD}/MQP_KICAD.kicad_sym") (options "") (descr ""))
+)
