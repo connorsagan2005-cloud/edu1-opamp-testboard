@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PCBedu1") (type "KiCad") (uri "${KIPRJMOD}/PCBedu1.pretty") (options "") (descr ""))
+)
